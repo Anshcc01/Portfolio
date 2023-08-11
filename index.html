@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh Dev POrtfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <style>
+        *{margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color:rgb(10, 27, 72);
+        color: white;
+        font-family: 'poppins', sans-serif;
+
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color:rgb(0, 0, 1);
+    }
+    nav ul{
+        display: flex;
+        justify-content: ;
+    }
+    nav ul li{
+        list-style:none ;
+        margin: 0 23px;
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(247, 245, 249);
+    }
+    nav ul li a:hover{
+                 color: rgb(200, 161, 238);
+                 font-size: 1.4rem;
+    }
+    main hr {
+        border: 0;
+        background-color: rgb(200, 170, 228);
+        height: 1.2px;
+        margin: 40px 84px;
+    }
+    .left{
+        font-size: 3rem;
+    }
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin: 23vh 0;
+        align-items: center;
+    
+    }
+    .firstsection > div{
+        width: 30%;
+    }
+    .leftsection{
+        font-size: 3rem;
+        
+    }
+    .leftsection .btn {
+        padding:12px;
+        background-color: rgb(35 4 64);
+        color:white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .rightsection img{
+        width: 80%;
+    }
+    .purple{ color: rgb(145, 105, 230);
+
+    }
+    .text-gray{
+        color: azure;
+    }
+    #element{
+        color:rgb(145, 105, 230) ;
+    }
+    .secondsection {
+        max-width: 80vw;
+        margin: auto;
+
+    }
+    .secondsection h1 {
+        font-size: 1.9rem;
+
+    }
+    .secondsection .box{
+                  background-color:white ;
+                  width: 80vw;
+                  height: 2px;
+                  margin: 56px 0;
+                  display:flex;
+    }
+    .secondsection .vertical{
+        height: 46px;
+        width: 1px;
+        background-color: aliceblue;
+        margin: 0 100px;
+    }
+    .image-top{
+        width: 50px;
+        position: relative;
+        top: -51px;
+        left: -9px;
+    }
+    .vertical-title {
+        position: relative;
+        top: -11px;
+        width: 150px;
+
+    }
+    .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: grey;
+        width: 150px;
+        font-size: 9px;
+
+    }
+    footer{
+           background-color: black;
+           height: 41px;
+    }
+    footer{
+        display: flex;
+        margin-top: 14%;
+    }
+</style>
+</head>
+<body>
+    
+        <nav>
+            <div class="left">Ansh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">Contact Me</li></a>
+                    <li><a href="/">Service</li></a>
+                    <li><a href="/">Projects</li></a>
+                </ul>
+        </nav>
+    </header>
+    <header>
+    </header>
+    <main>
+        <setion class="firstsection">
+            <div class="leftsection">Hi ! , My name is <span class="purple">Ansh</span> 
+                <div>and iam a enthusiastic </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">View Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="./istockphoto-1291971619-612x612.jpg" alt="">
+
+            </div>
+        </setion>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./pngwing.com (7).png" alt="">
+                    <div class="vertical-title">
+                        HTML DEVELOPER (2019-20)
+                    </div>
+                    
+
+                </div>
+                <div class="vertical">
+                <img class="image-top" src="./pngwing.com.png" alt="">
+                    <div class="vertical-title">
+                        video editing for instagram(2019-20)
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ansh's Developer portfolio</h3>
+                
+            </div>
+            <div class="footer-second">
+
+            </div>
+            <div class="footer-third">
+                
+            </div>
+            <div class="footer-fourth">
+                
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Social media Handler','buisness advisor','video editor'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
